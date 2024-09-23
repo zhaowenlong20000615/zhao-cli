@@ -1,0 +1,25 @@
+{
+  "name": "custom-cli",
+  "version": "1.0.0",
+  "description": "cli 脚手架",
+  "main": "index.js",
+  "bin": {
+    "zhao": "./lib/index.js"
+  },
+  "scripts": {
+    "dev": "zhao"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^6.0.1",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "simple-git": "^3.27.0"
+  }
+}
