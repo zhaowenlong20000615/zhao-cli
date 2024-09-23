@@ -1,10 +1,13 @@
 {
   "name": "zhaowenlong-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "zhaowenlong-cli前端cli工具",
   "main": "index.js",
   "bin": {
     "zhao": "./lib/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "dev": "zhao"
