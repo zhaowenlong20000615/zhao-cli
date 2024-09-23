@@ -1,7 +1,7 @@
 {
-  "name": "custom-cli",
+  "name": "zhaowenlong-cli",
   "version": "1.0.0",
-  "description": "cli 脚手架",
+  "description": "zhaowenlong-cli前端cli工具",
   "main": "index.js",
   "bin": {
     "zhao": "./lib/index.js"
@@ -9,8 +9,11 @@
   "scripts": {
     "dev": "zhao"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "cli前端cli工具"
+  ],
+  "author": "13633797408",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.5.4",
